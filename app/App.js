@@ -16,11 +16,6 @@ const App = () => (
         </div>
         <div className="row">
             <div className="col-lg-12">
-                <Search />
-            </div>
-        </div>
-        <div className="row">
-            <div className="col-lg-12">
                 <Results>
                     <SearchArticle />
                 </Results>

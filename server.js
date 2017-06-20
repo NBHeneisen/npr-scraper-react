@@ -9,8 +9,11 @@ var request = require("request");
 var cheerio = require("cheerio");
 
 // Requiring our Note and Article models
-var Note = require("./models/Note.js");
-var Article = require("./models/Article.js");
+// var Note = require("./models/Note.js");
+// var Article = require("./models/Article.js");
+
+// var articleController = require("./controllers/articleController");
+// var noteController = require("./controllers/noteController");
 
 var PORT = process.env.PORT || 3000;
 mongoose.Promise = bluebird;
